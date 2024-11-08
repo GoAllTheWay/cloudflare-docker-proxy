@@ -31,7 +31,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.huadaocredit", custom_domain = true }
+ route = { pattern = "docker-staging.huadaocredit", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
